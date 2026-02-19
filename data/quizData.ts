@@ -50,6 +50,34 @@ export const quizData: Question[] = [
       "All Web Aggregators shall have the word 'Insurance Web Aggregator' or 'Insurance Web Aggregators' in the name of the Insurance Broking Company to reflect its line of activity and to enable the public to differentiate IRDA licensed insurance Web Aggregator from other non-licensed insurance related entities."
   },
   {
+    id: 4,
+    question: "Complete the following sentence with respect to the choice of funds that a policy holder has to invest his or her premium, in case of Unit Linked Insurance Plans (ULIP). \"The Money Market Fund invests a major portion of the money in instruments such as __________ whereas a Debt Fund invests a major portion of the money in instruments such as __________.\"",
+    options: [
+      "Government Bonds, Corporate Bonds, Fixed Deposit etc./ Shares and Debentures etc.",
+      "Government Bonds, Corporate Bonds, Fixed Deposits etc./ Hundis and Chit Funds etc.",
+      "Treasury Bills, Certificates of Deposit, Commercial Paper etc./ Shares and Debentures etc.",
+      "Treasury Bills, Certificates of Deposit, Commercial Paper etc./ Government Bonds, Corporate Bonds, Fixed Deposits etc.",
+      "Treasury Bills, Certificates of Deposit, Commercial Paper etc./ Hundis and Chit Funds etc."
+    ],
+    correctAnswer: "Treasury Bills, Certificates of Deposit, Commercial Paper etc./ Government Bonds, Corporate Bonds, Fixed Deposits etc.",
+    explanation:
+      "Money Market Fund invests a major portion of the money in instruments such as Treasury Bills, Certificates of Deposit, Commercial Paper etc. Debt fund invests major portion of the money in fixed income securities e.g., Government Bonds, Corporate Bonds, Fixed Deposits etc."
+  },
+  {
+    id: 5,
+    question: "Fill in the blanks with appropriate options with regards to 'terms and conditions precedent to liability' and 'conditions subsequent'. Conditions Precedent to Liability are those __________ whereas Condition Subsequent are those __________.",
+    options: [
+      "which require the insured to disclose any material fact, to make sure the policy is valid; which require notification of changes while the policy is valid",
+      "which require notification of changes when the policy is valid; which require the insured to disclose any material facts to make sure the policy is valid",
+      "which require the insured to give notice of an event happening within a specified period of time and also comply with certain situations prior to the occurrence of the loss; which require a notification of changes while the policy is valid",
+      "which require the insured to disclose any material facts to make sure the policy is valid; which require the insured to give notice of an event happening within a specified period of time and also comply with certain situations prior to the occurrence of the loss",
+      "which require notification of changes while the policy is valid; Which require the insurer to give notice of any event happening, within a specified period of time and also comply with certain situations prior to the occurrence of the loss"
+    ],
+    correctAnswer: "which require the insured to give notice of an event happening within a specified period of time and also comply with certain situations prior to the occurrence of the loss; which require a notification of changes while the policy is valid",
+    explanation:
+      "Conditions Precedent to Liability require the insured to give notice of an event happening within a specified period of time and also comply with certain situations prior to the occurrence of the loss. Conditions Subsequent require a notification of changes while the policy is valid."
+  },
+  {
     id: 6,
     question: "Identify from the following, the correct option which is not a consequential loss.",
     options: [
@@ -104,6 +132,104 @@ export const quizData: Question[] = [
     correctAnswer: "Motor Third Party",
     explanation:
       "The 'Pay and Recover' principle primarily arises in Motor Third Party insurance claims. This principle allows the insurance company to pay the compensation amount to the third party and then recover the same from the insured vehicle owner."
+  },
+  {
+    id: 10,
+    question: "Which of the following is not an exposure unit?",
+    options: [
+      "Person covered in Life Insurance",
+      "Vehicle",
+      "Consignment",
+      "Group Policy",
+      "All of the above"
+    ],
+    correctAnswer: "Group Policy",
+    explanation:
+      "Group Policy is not an exposure unit. The number of exposure units covered in that Group is relevant."
+  },
+  {
+    id: 11,
+    question: "In evaluating a risk, which of the following aspects is not relevant?",
+    options: [
+      "The market share of the Customer",
+      "The Sum Insured",
+      "The location of the risk",
+      "Past loss experience",
+      "All of the above"
+    ],
+    correctAnswer: "The market share of the Customer",
+    explanation:
+      "In evaluating an individual risk, Market Share is not relevant."
+  },
+  {
+    id: 12,
+    question: "What is Reinstatement in reinsurance?",
+    options: [
+      "Reinstatement of the Premium in Proportional Treaties",
+      "Reinstatement of the Deductible",
+      "Reinstatement of the Premium in Non-Proportional Treaties",
+      "Reinstatement of the Cover Limit",
+      "Reinstatement of the premium due"
+    ],
+    correctAnswer: "Reinstatement of the Cover Limit",
+    explanation:
+      "It should also be noted that the Cover Limit could get exhausted with one or more catastrophe events. The Cover Limit could, however, be reinstated on payment of additional premium to the Reinsurer."
+  },
+  {
+    id: 13,
+    question: "Why should an Insurer write a large volume of risks?",
+    options: [
+      "To increase market share",
+      "To improve their share price",
+      "To have a better prediction of loss events",
+      "To pay better remuneration to their employees",
+      "To increase profit"
+    ],
+    correctAnswer: "To have a better prediction of loss events",
+    explanation:
+      "The Law of Large Numbers says that as the number of trials go up, the difference between actual outcome and expected outcome come down. Hence, writing a large number of risks, gives more predictable outcomes."
+  },
+  {
+    id: 14,
+    question: "If the Sum Insured for machinery in a factory is Rs.50,00,000 and the Value at risk is Rs.40,00,000 and there is a loss for Rs.10,00,000 what amount should be paid to the Insured?",
+    options: [
+      "Rs. 8,00,000",
+      "Rs. 12,50,000",
+      "Rs. 10,00,000",
+      "Rs. 40,00,000",
+      "Rs. 34,00,000"
+    ],
+    correctAnswer: "Rs. 10,00,000",
+    explanation:
+      "There is no underinsurance in this case. Underinsurance applies only where the value at risk is more than the Sum Insured. Here, value at risk of Rs.40,00,000 is less than the Sum Insured of Rs.50,00,000. Hence, the full loss amount of Rs.10,00,000 will be paid. Note: The underinsurance formula (Loss Assessed X Sum Insured/Value at Risk) is applied only when the Sum Insured is less than the Value at Risk."
+  },
+  {
+    id: 15,
+    question: "If the Insurer's Retention is 200 Crores and they have a Ten Line Surplus treaty, what is the Treaty capacity?",
+    options: [
+      "2200 Crores",
+      "2000 Crores",
+      "1800 Crores",
+      "200 Crores",
+      "1200 Crores"
+    ],
+    correctAnswer: "2200 Crores",
+    explanation:
+      "Treaty capacity is the sum of Retention and committed Reinsurance. In the given example, the committed reinsurance is 200X10=2000 (Ten Line Surplus treaty). Therefore, sum of retention + committed reinsurance = 200+2000 = 2200 is the Treaty capacity."
+  },
+  {
+    id: 16,
+    question: "Which of the following is not a Risk?",
+    options: [
+      "Property",
+      "Flood",
+      "Liability",
+      "Life Insurance",
+      "None of the above"
+    ],
+    correctAnswer: "Flood",
+    explanation:
+      "While others are Risks, Flood is a Peril."
   },
   {
     id: 17,
